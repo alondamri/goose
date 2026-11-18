@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-alpha.15](https://github.com/aaif-goose/goose/compare/gdk-v0.1.0-alpha.14...gdk-v0.1.0-alpha.15) - 2026-11-18
+
+### Added
+
+- *(gdk)* compaction operation ([#13575](https://github.com/aaif-goose/goose/pull/13575))
+
+### Fixed
+
+- *(compaction)* drop the <analysis> scratchpad that Claude models refuse ([#13572](https://github.com/aaif-goose/goose/pull/13572))
+
 ## [0.1.0-alpha.14](https://github.com/aaif-goose/goose/compare/gdk-v0.1.0-alpha.13...gdk-v0.1.0-alpha.14) - 2026-11-16
 
 ### Fixed

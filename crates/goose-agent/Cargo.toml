@@ -1,6 +1,6 @@
 [package]
 name = "goose-agent"
-version = "0.1.0-alpha.14"
+version = "0.1.0-alpha.15"
 edition.workspace = true
 rust-version.workspace = true
 authors.workspace = true
@@ -24,7 +24,7 @@ anyhow = { workspace = true }
 tokio = { workspace = true, features = ["macros", "sync", "rt", "time"] }
 tokio-util = { workspace = true, features = ["compat"] }
 async-trait = { workspace = true }
-goose-provider-types = { version = "0.1.0-alpha.14", path = "../goose-provider-types", default-features = false }
+goose-provider-types = { version = "0.1.0-alpha.15", path = "../goose-provider-types", default-features = false }
 rmcp = { workspace = true, features = ["server"] }
 uuid = { workspace = true }
 serde_json = { workspace = true }
@@ -33,7 +33,7 @@ tracing = { workspace = true }
 tracing-futures = { workspace = true }
 serde.workspace = true
 regex = { workspace = true, features = ["unicode-perl"] }
-goose-sdk-types = { version = "0.1.0-alpha.14", path = "../goose-sdk-types", default-features = false }
+goose-sdk-types = { version = "0.1.0-alpha.15", path = "../goose-sdk-types", default-features = false }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 rmcp = { workspace = true, features = ["local"] }
@@ -49,7 +49,7 @@ wasm-bindgen-test = "0.3.78"
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
 blake3 = { version = "1", default-features = false, features = ["std"] }
 indexmap = { version = "2.9", default-features = false, features = ["std"] }
-goose-context-management = { version = "0.1.0-alpha.13", path = "../goose-context-management", default-features = false }
+goose-context-management = { version = "0.1.0-alpha.15", path = "../goose-context-management", default-features = false }
 once_cell.workspace = true
 reqwest = { workspace = true, features = ["system-proxy", "json"] }
 rmcp = { workspace = true, features = ["auth", "client", "transport-child-process", "transport-streamable-http-client", "transport-streamable-http-client-reqwest", "transport-streamable-http-client-unix-socket"] }

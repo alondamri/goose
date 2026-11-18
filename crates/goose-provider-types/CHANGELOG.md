@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-alpha.15](https://github.com/aaif-goose/goose/compare/gdk-v0.1.0-alpha.14...gdk-v0.1.0-alpha.15) - 2026-11-18
+
+### Added
+
+- *(gdk)* compaction operation ([#13575](https://github.com/aaif-goose/goose/pull/13575))
+- *(providers)* add llmman as a declarative Ollama-compatible provider ([#11974](https://github.com/aaif-goose/goose/pull/11974))
+
+### Fixed
+
+- *(providers)* decode decimal created_at in Responses API payloads ([#13490](https://github.com/aaif-goose/goose/pull/13490))
+- share catalog-aware vision lookup between SDK and provider registry ([#13487](https://github.com/aaif-goose/goose/pull/13487))
+- *(providers)* keep think tags in Ollama XML tool-call arguments ([#13563](https://github.com/aaif-goose/goose/pull/13563))
+- *(openai)* send tool_choice auto when tools are present ([#12716](https://github.com/aaif-goose/goose/pull/12716))
+
+### Other
+
+- *(release)* bump version to 1.60.0 (minor) ([#13586](https://github.com/aaif-goose/goose/pull/13586))
+- *(deps)* bump gloo-timers from 0.3.0 to 0.4.0 ([#13596](https://github.com/aaif-goose/goose/pull/13596))
+
 ## [0.1.0-alpha.14](https://github.com/aaif-goose/goose/compare/gdk-v0.1.0-alpha.13...gdk-v0.1.0-alpha.14) - 2026-11-16
 
 ### Added

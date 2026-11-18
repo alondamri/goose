@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-alpha.15](https://github.com/aaif-goose/goose/compare/gdk-v0.1.0-alpha.14...gdk-v0.1.0-alpha.15) - 2026-11-18
+
+### Added
+
+- *(providers)* add llmman as a declarative Ollama-compatible provider ([#11974](https://github.com/aaif-goose/goose/pull/11974))
+- *(providers)* add amazee.ai declarative provider ([#12873](https://github.com/aaif-goose/goose/pull/12873))
+- *(providers)* add Onysoft declarative provider ([#13582](https://github.com/aaif-goose/goose/pull/13582))
+
+### Other
+
+- *(providers)* use full Onysoft AI Gateway name and expand description ([#13611](https://github.com/aaif-goose/goose/pull/13611))
+- Add Cortecs as declarative provider ([#12617](https://github.com/aaif-goose/goose/pull/12617))
+- *(providers)* update the EmpirioLabs AI provider (retired model id, description, catalog link) ([#13229](https://github.com/aaif-goose/goose/pull/13229))
+
 ## [0.1.0-alpha.14](https://github.com/aaif-goose/goose/compare/gdk-v0.1.0-alpha.13...gdk-v0.1.0-alpha.14) - 2026-11-16
 
 ### Added
